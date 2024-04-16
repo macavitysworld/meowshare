@@ -53,7 +53,7 @@ export default function Home() {
               <div className="flex-col items-center">
                 <h3 className="font-bold text-left">POST</h3>
                 <Terminal
-                  message={`curl -X POST "https://meowshare.vercel.app/api/user" -H "Content-Type: application/json" -d '{
+                  message={`curl -X POST "https://meowshare.vercel.app//api/user" -H "Content-Type: application/json" -d '{
                     "message": "your message",
                     "route": "your-path",
                     "expireDate": expireDate
